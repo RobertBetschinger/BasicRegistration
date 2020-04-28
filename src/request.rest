@@ -1,0 +1,21 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name":"Robert Testomensch",
+    "email":"robert-betschinger@koutlook.de",
+    "password":"adoasod"
+}
+
+###
+
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+    "email":"robert-betschinger@outlook.de",
+    "password":"adoasod"
+}
+
+###
+GET http://localhost/3000/users
